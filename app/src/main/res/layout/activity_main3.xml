@@ -4,46 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity"
+    tools:context=".Main3Activity"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@color/colorPrimaryDark">
+    android:background="@color/colorPrimary">
 
     <TextView
-        android:id="@+id/textview_user"
+        android:id="@+id/textview_user_shared"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20sp"
         />
     <TextView
-        android:id="@+id/textview_pass"
+        android:id="@+id/textview_pass_shared"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20sp"
         />
     <TextView
-        android:id="@+id/textview_email"
+        android:id="@+id/textview_email_shared"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20sp"
         />
     <TextView
-        android:id="@+id/textview_genero"
+        android:id="@+id/textview_genero_shared"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20sp"
 
         />
-
-    <Button
-        android:id="@+id/btn_share"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SHARE "
-        android:gravity="center"/>
 
 </LinearLayout>
